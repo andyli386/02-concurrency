@@ -3,5 +3,5 @@ pub mod metrics;
 pub mod vector;
 
 pub use matrix::{multiply, Matrix};
-pub use metrics::cmap::CmapMetrics;
+pub use metrics::{amap::AmapMetrics, cmap::CmapMetrics};
 pub use vector::{dot_product, Vector};
