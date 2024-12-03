@@ -11,6 +11,7 @@ fn main() -> Result<()> {
     let metrics = Metrics::new();
 
     // println!("{:?}", metrics.snapshot());
+    println!("{}", metrics);
 
     for idx in 0..N {
         task_worker(idx, metrics.clone())?;
